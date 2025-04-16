@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input type="tel" placeholder="Insert the operation here..." name="Calculator" id="display">
+        <div>
+        <div id="manipulate">
+            <div>
+                <button id="one" onclick="appendValue(1)">1</button>
+                <button id="two" onclick="appendValue(2)">2</button>
+                <button id="three" onclick="appendValue(3)">3</button>
+                <button id="sum" onclick="appendValue('+')">+</button>
+            </div>
+            <div>
+                <button id="four" onclick="appendValue(4)">4</button>
+                <button id="five" onclick="appendValue(5)">5</button>
+                <button id="six" onclick="appendValue(6)">6</button>
+                <button id="substract" onclick="appendValue('-')">-</button>
+            </div>
+            <div>
+                <button id="seven" onclick="appendValue(7)">7</button>
+                <button id="eight" onclick="appendValue(8)">8</button>
+                <button id="nine" onclick="appendValue(9)">9</button>
+                <button id="product" onclick="appendValue('*')">*</button>
+            </div>
+            <div>
+                <button id="zero" onclick="appendValue(0)">0</button>
+                <button id="dot" onclick="appendValue('.')">.</button>
+                <button id="delete" onclick="appendValue('del')">Del</button>
+                <button id="divide" onclick="appendValue('/')">/</button>
+            </div>
+
+        </div>
+            <div id="bottom">
+                <button id="clear" onclick="appendValue('clear')">Clear</button>
+                <button id="equal" onclick="result()">=</button>
+
+            </div>
+        
+        </div>
+
+    </div>
+    
+</body>
+    <script src="script.js"></script>
+</html>

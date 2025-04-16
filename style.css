@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    border: none;
+    gap: 5px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    height: 59px;
+    width: 59px;
+    margin: 0px 5px;
+    border-radius: 60%;
+}
+input{
+    width: 17.5rem;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+}
+#sum, #substract, #product, #divide{
+    background-color: orange;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(99, 94, 94);
+    border-radius: 20px;
+    padding: 40px;
+}
+#manipulate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+#clear{
+    border-radius: 0px;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 5px;
+
+}
+#equal{
+    width: 210px;
+    background-color: orange;
+    border-radius: 0px;
+}
+
